@@ -1,0 +1,7 @@
+.metadata/**
+axi_gpio_led_vivado/**
+zynq_emio/**
+IDE.log
+RemoteSystemsTempFiles/.project
+vitis_emio_programming.mp4
+.analytics

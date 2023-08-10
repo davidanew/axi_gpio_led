@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="axi_gpio_led_sw" location="C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_sw" platform="C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/export/axi_gpio_led_platform/axi_gpio_led_platform.xpfm" platformUID="xilinx:arty-z7-10::0.0(custom)" systemProject="axi_gpio_led_sw_system" sysConfig="axi_gpio_led_platform" runtime="C/C++" cpu="standalone_domain" cpuInstance="ps7_cortexa9_0" os="standalone" mssSignature="3ae16988342a150cd76c9c45bb0287b9">
+  <configuration name="Debug" id="xilinx.gnu.armv7.exe.debug.1684749043">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.armv7.exe.release.232790546" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>
