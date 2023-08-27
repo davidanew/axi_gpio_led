@@ -8,5 +8,3 @@ IDE.log
 RemoteSystemsTempFiles/.project
 vitis_emio_programming.mp4
 .analytics
-axi_gpio_led_vivado/axi_gpio_led_vivado.xpr
-axi_gpio_led_vivado/design_1_wrapper.xsa
