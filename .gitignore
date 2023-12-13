@@ -8,3 +8,15 @@ IDE.log
 RemoteSystemsTempFiles/.project
 vitis_emio_programming.mp4
 .analytics
+axi_gpio_led_platform/logs/platform.log
+axi_gpio_led_platform/platform.tcl
+axi_gpio_led_sw/_ide/launch/Debugger_axi_gpio_led_sw-Default.launch
+axi_gpio_led_sw/_ide/launch/Debugger_axi_gpio_led_sw-Default_1.launch
+axi_gpio_led_sw/_ide/launch/Debugger_axi_gpio_led_sw-Default_2.launch
+axi_gpio_led_sw/_ide/launch/Debugger_axi_gpio_led_sw-Default_3.launch
+axi_gpio_led_sw/_ide/launch/Debugger_axi_gpio_led_sw-Default_4.launch
+axi_gpio_led_sw_system/_ide/scripts/debugger_axi_gpio_led_sw-default.tcl
+axi_gpio_led_sw_system/_ide/scripts/debugger_axi_gpio_led_sw-default_2.tcl
+axi_gpio_led_sw_system/_ide/scripts/debugger_axi_gpio_led_sw-default_4.tcl
+axi_gpio_led_platform/platform.tcl
+axi_gpio_led_platform/logs/platform.log
