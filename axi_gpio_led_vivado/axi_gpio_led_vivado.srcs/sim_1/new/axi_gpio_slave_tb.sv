@@ -155,11 +155,3 @@ module axi_gpio_slave_tb;
 
 endmodule
 
-//I hope this helps! Let me know if you have any other questions.
-
-//Source: Conversation with Bing, 14/12/2023
-//(1) write AXI4-Lite testbench - Xilinx Support. https://support.xilinx.com/s/question/0D52E00006hpcW0SAI/write-axi4lite-testbench?language=en_US.
-//(2) GitHub - schang412/verilog-gpio. https://github.com/schang412/verilog-gpio.
-//(3) system verilog - AXI Verification IP Test Example - Stack Overflow. https://stackoverflow.com/questions/64050121/axi-verification-ip-test-example.
-//(4) GitHub - alexforencich/verilog-axi: Verilog AXI components for FPGA .... https://github.com/alexforencich/verilog-axi.
-//(5) AXI Basics 2 - Simulating AXI interfaces with the AXI Verification IP .... https://support.xilinx.com/s/article/1053935?language=en_US.
