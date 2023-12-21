@@ -95,8 +95,9 @@ module axi_gpio_slave_tb;
         aresetn = 1;
     end
 
-    // Write transaction
+    // Write and read transaction
     initial begin
+        // Initialisation
         awaddr = 32'h00000000;
         awprot = 8'h00;
         awvalid = 1'b0;
@@ -105,34 +106,27 @@ module axi_gpio_slave_tb;
         wvalid = 1'b0;
         bready = 1'b0;
         @(negedge aclk);
+        // Set write address, data and valids
         awaddr = 32'h00000000;
         awvalid = 1'b1;
         wdata = 32'h00000001;
         wstrb = 4'b1111;
         wvalid = 1'b1;
-        bready = 1'b0;
-        repeat (2) @(negedge aclk);
+        @(negedge aclk);
+        // Slave will have asserted readys 
+        @(negedge aclk);
+        // Clear valids
+        // Slave would have de-asserted readys
         awvalid = 1'b0;
         wvalid = 1'b0;
+        // set write return channel as ready
         bready = 1'b1;
         @(negedge aclk);
+        // Slave would have set return channel valid
         bready = 1'b0;
         repeat (2) @(posedge aclk);
     end
 
-    // Read transaction
-    initial begin
-        araddr = 32'h00000000;
-        arprot = 8'h00;
-        arvalid = 1'b1;
-        repeat (2) @(posedge aclk);
-        arvalid = 1'b0;
-        repeat (2) @(posedge aclk);
-        if (rready) begin
-            rready = 1'b0;
-        end
-        repeat (2) @(posedge aclk);
-    end
 
     // End simulation
     initial begin
