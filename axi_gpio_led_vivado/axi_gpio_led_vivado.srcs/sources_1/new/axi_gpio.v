@@ -41,10 +41,10 @@ module axi_gpio_slave
     input wire [C_S_AXI_ADDR_WIDTH-1:0] S_AXI_ARADDR,
     input wire [7:0] S_AXI_ARPROT,
     input wire S_AXI_ARVALID,
-    output wire S_AXI_ARREADY,
+    output reg S_AXI_ARREADY,
     output reg [C_S_AXI_DATA_WIDTH-1:0] S_AXI_RDATA,
     output wire [1:0] S_AXI_RRESP,
-    output wire S_AXI_RVALID,
+    output reg S_AXI_RVALID,
     input wire S_AXI_RREADY,
     output wire [31:0] gpio_out
 );
@@ -52,18 +52,21 @@ module axi_gpio_slave
     reg [31:0] gpio_reg;
 
     assign S_AXI_BRESP = 2'b00;
-    assign S_AXI_ARREADY = 1'b1;
     assign S_AXI_RRESP = 2'b00;
-    assign S_AXI_RVALID = 1'b1;
 
     always @(posedge S_AXI_ACLK) begin
         #1
+        
+        // Reset
         if (!S_AXI_ARESETN) begin
             // reset
             gpio_reg <= 32'h0;
             S_AXI_AWREADY <= 1'b0;
+            S_AXI_ARREADY <= 1'b0;
             S_AXI_WREADY <= 1'b0;
-            S_AXI_BVALID <= 1'b0;  
+            S_AXI_BVALID <= 1'b0;
+            
+        //write  
         end else if (S_AXI_AWVALID && S_AXI_WVALID && !S_AXI_AWREADY && !S_AXI_WREADY) begin
             // Write address and data valid but readys have not been set 
             //gpio_reg <= S_AXI_WDATA;
@@ -83,6 +86,26 @@ module axi_gpio_slave
             // write return handshake complete
             S_AXI_BVALID <= 1'b0;
         end
+        
+        //read  
+        else if (S_AXI_ARVALID && !S_AXI_ARREADY) begin
+            // read address valid but ready has not been set 
+            // Set read address ready
+            S_AXI_ARREADY <= 1'b1;
+        end else if (S_AXI_ARVALID && S_AXI_ARREADY) begin
+            // Read address valid still set
+            // Ready was set by this block on previous cycle
+            // Handshake is done
+            S_AXI_RDATA <= gpio_reg;
+            S_AXI_ARREADY <= 1'b0;
+            // Read return is valid
+            S_AXI_RVALID <= 1'b1;                 
+        end else if (S_AXI_RVALID && S_AXI_RREADY) begin
+            // read return handshake complete
+            // read data is already on the bus
+            S_AXI_RVALID <= 1'b0;
+        end
+        
     end
 
     assign gpio_out = gpio_reg;

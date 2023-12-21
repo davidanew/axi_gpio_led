@@ -1,4 +1,7 @@
-Running: xsim.dir/axi_gpio_slave_tb_behav/xsimk.exe -simmode gui -wdb axi_gpio_slave_tb_behav.wdb -simrunnum 0 -socket 49368
+Running: xsim.dir/axi_gpio_slave_tb_behav/xsimk.exe -simmode gui -wdb axi_gpio_slave_tb_behav.wdb -simrunnum 0 -socket 51824
 Design successfully loaded
-Design Loading Memory Usage: 7892 KB (Peak: 7892 KB)
+Design Loading Memory Usage: 7884 KB (Peak: 7884 KB)
 Design Loading CPU Usage: 0 ms
+Simulation completed
+Simulation Memory Usage: 8548 KB (Peak: 8548 KB)
+Simulation CPU Usage: 0 ms
