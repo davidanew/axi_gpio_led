@@ -51,10 +51,7 @@ module axi_gpio_slave
 
     reg [31:0] gpio_reg;
 
-//    assign S_AXI_AWREADY = 1'b1;
-//    assign S_AXI_WREADY = 1'b1;
     assign S_AXI_BRESP = 2'b00;
-//    assign S_AXI_BVALID = 1'b0;
     assign S_AXI_ARREADY = 1'b1;
     assign S_AXI_RRESP = 2'b00;
     assign S_AXI_RVALID = 1'b1;
@@ -62,20 +59,28 @@ module axi_gpio_slave
     always @(posedge S_AXI_ACLK) begin
         #1
         if (!S_AXI_ARESETN) begin
+            // reset
             gpio_reg <= 32'h0;
             S_AXI_AWREADY <= 1'b0;
             S_AXI_WREADY <= 1'b0;
             S_AXI_BVALID <= 1'b0;  
         end else if (S_AXI_AWVALID && S_AXI_WVALID && !S_AXI_AWREADY && !S_AXI_WREADY) begin
-            gpio_reg <= S_AXI_WDATA;
+            // Write address and data valid but readys have not been set 
+            //gpio_reg <= S_AXI_WDATA;
+            // Set write readys 
             S_AXI_AWREADY <= 1'b1;
             S_AXI_WREADY <= 1'b1;
         end else if (S_AXI_AWVALID && S_AXI_WVALID && S_AXI_AWREADY && S_AXI_WREADY) begin
+            // Write valids still set
+            // readys were set by this block on previous cycle
+            // handshake is done
             gpio_reg <= S_AXI_WDATA;
             S_AXI_AWREADY <= 1'b0;
             S_AXI_WREADY <= 1'b0;
+            // Write return is valid
             S_AXI_BVALID <= 1'b1;                 
-        end else if (S_AXI_BVALID) begin
+        end else if (S_AXI_BVALID && S_AXI_BREADY) begin
+            // write return handshake complete
             S_AXI_BVALID <= 1'b0;
         end
     end
