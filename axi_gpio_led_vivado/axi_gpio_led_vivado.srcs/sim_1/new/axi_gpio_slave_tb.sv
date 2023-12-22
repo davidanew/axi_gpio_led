@@ -1,32 +1,4 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 14.12.2023 15:06:18
-// Design Name: 
-// Module Name: axi_gpio_tb
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
-
-
-//module axi_gpio_tb(
-
-//    );
-//endmodule
-
-
-`timescale 1ns/1ps
 
 module axi_gpio_slave_tb;
 
@@ -95,7 +67,7 @@ module axi_gpio_slave_tb;
         aresetn = 1;
     end
 
-    // Write and read transaction
+    // Write and read transactions
     initial begin
     
         // Initialisation
@@ -117,15 +89,21 @@ module axi_gpio_slave_tb;
         wvalid = 1'b1;
         @(negedge aclk);
         // Slave will have asserted readys 
-        @(negedge aclk);
+        assert(wready == 1'b1) else $error("Write data ready not asserted");
+        assert(awready == 1'b1) else $error("Write address ready not asserted");
+        @(negedge aclk);        
+        // Slave would have cleared readys
+        assert(wready == 1'b0) else $error("Write data ready not cleared");
+        assert(awready == 1'b0) else $error("Write address ready not cleared");      
         // Clear valids
-        // Slave would have de-asserted readys
         awvalid = 1'b0;
         wvalid = 1'b0;
         // set write return channel as ready
         bready = 1'b1;
-        @(negedge aclk);
         // Slave would have set return channel valid
+        assert(bvalid == 1'b1) else $error("Write return valid not set"); 
+        @(negedge aclk);
+        // Clear return channel ready
         bready = 1'b0;
         
         // Read transaction
@@ -134,18 +112,22 @@ module axi_gpio_slave_tb;
         araddr = 32'h00000000;
         arvalid = 1'b1;
         @(negedge aclk);
-        // Slave will have asserted readys 
+        // Slave will have asserted ready
+        assert(arready == 1'b1) else $error("Read address ready not asserted");
         @(negedge aclk);
-        // Clear valid
         // Slave would have de-asserted readys
+        assert(arready == 1'b0) else $error("read address ready not cleared"); 
+        // Clear valid
         arvalid = 1'b0;
         // set read return channel as ready
         rready = 1'b1;
-        @(negedge aclk);
         // Slave would have set return channel valid
+        assert(rvalid == 1'b1) else $error("Read return valid not set");
+        // Slave should have correct read value 
+        assert(rvalid == 32'h00000001) else $error("Read return value not correct");
+        @(negedge aclk);
         rready = 1'b0;
     end
-
 
     // End simulation
     initial begin

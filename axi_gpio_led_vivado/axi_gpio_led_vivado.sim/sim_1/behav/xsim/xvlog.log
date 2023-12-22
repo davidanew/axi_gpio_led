@@ -1,0 +1,2 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_vivado/axi_gpio_led_vivado.srcs/sim_1/new/axi_gpio_slave_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_gpio_slave_tb
