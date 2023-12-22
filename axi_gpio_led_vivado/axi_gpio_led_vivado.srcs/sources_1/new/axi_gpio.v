@@ -50,6 +50,7 @@ module axi_gpio_slave
 );
 
     reg [31:0] gpio_reg;
+    reg [31:0] gpio_reg_prev; // for write strobe
 
     assign S_AXI_BRESP = 2'b00;
     assign S_AXI_RRESP = 2'b00;
@@ -77,7 +78,11 @@ module axi_gpio_slave
             // Write valids still set
             // readys were set by this block on previous cycle
             // handshake is done
-            gpio_reg <= S_AXI_WDATA;
+            gpio_reg_prev = gpio_reg;
+            gpio_reg[7:0]   <= S_AXI_WSTRB[0] ? S_AXI_WDATA[7:0]   : gpio_reg_prev[7:0];
+            gpio_reg[15:8]  <= S_AXI_WSTRB[1] ? S_AXI_WDATA[15:8]  : gpio_reg_prev[15:8]; 
+            gpio_reg[23:16] <= S_AXI_WSTRB[2] ? S_AXI_WDATA[23:16] : gpio_reg_prev[23:16]; 
+            gpio_reg[31:24] <= S_AXI_WSTRB[3] ? S_AXI_WDATA[31:24] : gpio_reg_prev[31:24]; 
             S_AXI_AWREADY <= 1'b0;
             S_AXI_WREADY <= 1'b0;
             // Write return is valid

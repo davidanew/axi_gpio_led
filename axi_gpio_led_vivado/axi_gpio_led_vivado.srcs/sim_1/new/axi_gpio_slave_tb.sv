@@ -84,8 +84,8 @@ module axi_gpio_slave_tb;
         // Set write address, data and valids
         awaddr = 32'h00000000;
         awvalid = 1'b1;
-        wdata = 32'h00000001;
-        wstrb = 4'b1111;
+        wdata = 32'h87654321;
+        wstrb = 4'b1101;
         wvalid = 1'b1;
         @(negedge aclk);
         // Slave will have asserted readys 
@@ -124,7 +124,7 @@ module axi_gpio_slave_tb;
         // Slave would have set return channel valid
         assert(rvalid == 1'b1) else $error("Read return valid not set");
         // Slave should have correct read value 
-        assert(rvalid == 32'h00000001) else $error("Read return value not correct");
+        assert(rdata == 32'h87650021) else $error("Read return value not correct");
         @(negedge aclk);
         rready = 1'b0;
     end
