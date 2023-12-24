@@ -18,3 +18,6 @@ platform active {axi_gpio_led_platform}
 platform generate
 platform active {axi_gpio_led_platform}
 platform active {axi_gpio_led_platform}
+platform active {axi_gpio_led_platform}
+platform config -updatehw {C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_vivado/design_1_wrapper.xsa}
+platform generate
