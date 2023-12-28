@@ -48,31 +48,18 @@
 #include <stdio.h>
 #include "platform.h"
 #include "xil_printf.h"
-#include "xgpio.h"
+#include "xil_io.h"
+#include "xil_sleeptimer.h"
 #include "xparameters.h"
-
-XGpio_Config *gpio_config;
-XGpio gpio;
-
-void gpio_init(){
-
-	int status = XGpio_Initialize(&gpio, XPAR_AXI_GPIO_0_DEVICE_ID);
-	if(status == XST_SUCCESS)
-		xil_printf("Device INIT Successful\n");
-	else
-		xil_printf("Device Init Failed\n");
-}
 
 int main()
 {
     init_platform();
-    gpio_init();
-    XGpio_SetDataDirection(&gpio, 1, 0x0);
     while(1)
     {
-        XGpio_DiscreteWrite(&gpio, 1, 0xf);
+    	Xil_Out32(0x40000000, 0x0000000F);
         sleep(1);
-        XGpio_DiscreteWrite(&gpio, 1, 0x0);
+        Xil_Out32(0x40000000, 0x00000000);
         sleep(1);
     }
     cleanup_platform();

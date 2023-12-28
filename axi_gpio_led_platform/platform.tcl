@@ -24,3 +24,10 @@ platform generate
 platform active {axi_gpio_led_platform}
 platform config -updatehw {C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_vivado/design_1_wrapper.xsa}
 platform generate -domains 
+platform generate -domains standalone_domain 
+platform active {axi_gpio_led_platform}
+domain active {zynq_fsbl}
+bsp reload
+domain active {standalone_domain}
+bsp reload
+platform generate -domains 

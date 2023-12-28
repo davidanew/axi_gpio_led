@@ -5155,3 +5155,1095 @@ TRACE::2023-12-24.19:02:47::SCWMssOS::DEBUG:  swdes dump  C:/Users/david/fpga/ax
 C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
 
 TRACE::2023-12-24.19:02:47::SCWMssOS::Sw design exists and opened at  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-28.15:52:33::SCWPlatform::Trying to open the hw design at C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:52:33::SCWPlatform::DSA given C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:52:33::SCWPlatform::DSA absoulate path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:52:33::SCWPlatform::DSA directory C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw
+TRACE::2023-12-28.15:52:33::SCWPlatform:: Platform Path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:52:33::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2023-12-28.15:52:33::SCWPlatform::Do not have an existing db opened. 
+TRACE::2023-12-28.15:52:40::SCWPlatform::Opened new HwDB with name design_1_wrapper
+TRACE::2023-12-28.15:52:40::SCWReader::Active system found as  axi_gpio_led_platform
+TRACE::2023-12-28.15:52:40::SCWReader::Handling sysconfig axi_gpio_led_platform
+TRACE::2023-12-28.15:52:40::SCWDomain::checking for install qemu data   : 
+TRACE::2023-12-28.15:52:40::SCWDomain:: Using the QEMU Data from install at  : D:/Xilinx/Vitis/2023.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2023-12-28.15:52:40::SCWDomain:: Using the QEMU args  from install at  : D:/Xilinx/Vitis/2023.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2023-12-28.15:52:40::SCWPlatform::Trying to open the hw design at C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:52:40::SCWPlatform::DSA given C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:52:40::SCWPlatform::DSA absoulate path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:52:40::SCWPlatform::DSA directory C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw
+TRACE::2023-12-28.15:52:40::SCWPlatform:: Platform Path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:52:40::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2023-12-28.15:52:40::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2023-12-28.15:52:40::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2023-12-28.15:52:40::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-28.15:52:40::SCWPlatform::Trying to open the hw design at C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:52:40::SCWPlatform::DSA given C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:52:40::SCWPlatform::DSA absoulate path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:52:40::SCWPlatform::DSA directory C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw
+TRACE::2023-12-28.15:52:40::SCWPlatform:: Platform Path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:52:40::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2023-12-28.15:52:40::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2023-12-28.15:52:40::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2023-12-28.15:52:40::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-28.15:52:40::SCWPlatform::Trying to open the hw design at C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:52:40::SCWPlatform::DSA given C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:52:40::SCWPlatform::DSA absoulate path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:52:40::SCWPlatform::DSA directory C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw
+TRACE::2023-12-28.15:52:40::SCWPlatform:: Platform Path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:52:40::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2023-12-28.15:52:40::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2023-12-28.15:52:40::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2023-12-28.15:52:40::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-28.15:52:40::SCWReader::Boot application domain added for zynq_fsbl
+TRACE::2023-12-28.15:52:40::SCWPlatform::Trying to open the hw design at C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:52:40::SCWPlatform::DSA given C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:52:40::SCWPlatform::DSA absoulate path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:52:40::SCWPlatform::DSA directory C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw
+TRACE::2023-12-28.15:52:40::SCWPlatform:: Platform Path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:52:40::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2023-12-28.15:52:40::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2023-12-28.15:52:40::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2023-12-28.15:52:40::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-28.15:52:40::SCWMssOS::Checking the sw design at  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-28.15:52:40::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2023-12-28.15:52:40::SCWMssOS::No sw design opened at  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-28.15:52:40::SCWMssOS::mss exists loading the mss file  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-28.15:52:40::SCWMssOS::Opened the sw design from mss  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-28.15:52:40::SCWMssOS::Adding the swdes entry C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2023-12-28.15:52:40::SCWMssOS::updating the scw layer about changes
+TRACE::2023-12-28.15:52:40::SCWMssOS::Opened the sw design.  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-28.15:52:40::SCWPlatform::Trying to open the hw design at C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:52:40::SCWPlatform::DSA given C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:52:40::SCWPlatform::DSA absoulate path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:52:40::SCWPlatform::DSA directory C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw
+TRACE::2023-12-28.15:52:40::SCWPlatform:: Platform Path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:52:40::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2023-12-28.15:52:40::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2023-12-28.15:52:40::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2023-12-28.15:52:40::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-28.15:52:40::SCWMssOS::Checking the sw design at  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-28.15:52:40::SCWMssOS::DEBUG:  swdes dump  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-12-28.15:52:40::SCWMssOS::Sw design exists and opened at  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-28.15:52:40::SCWMssOS:: library already available in sw design:  xilffs:5.0
+TRACE::2023-12-28.15:52:40::SCWPlatform::Trying to open the hw design at C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:52:40::SCWPlatform::DSA given C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:52:40::SCWPlatform::DSA absoulate path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:52:40::SCWPlatform::DSA directory C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw
+TRACE::2023-12-28.15:52:40::SCWPlatform:: Platform Path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:52:40::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2023-12-28.15:52:40::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2023-12-28.15:52:40::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2023-12-28.15:52:40::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-28.15:52:40::SCWMssOS::Checking the sw design at  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-28.15:52:40::SCWMssOS::DEBUG:  swdes dump  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-12-28.15:52:40::SCWMssOS::Sw design exists and opened at  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-28.15:52:40::SCWMssOS:: library already available in sw design:  xilrsa:1.6
+TRACE::2023-12-28.15:52:40::SCWMssOS::Saving the mss changes C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-28.15:52:40::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-12-28.15:52:40::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-12-28.15:52:40::SCWMssOS::Commit changes completed.
+TRACE::2023-12-28.15:52:40::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2023-12-28.15:52:40::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2023-12-28.15:52:40::SCWPlatform::Trying to open the hw design at C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:52:40::SCWPlatform::DSA given C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:52:40::SCWPlatform::DSA absoulate path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:52:40::SCWPlatform::DSA directory C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw
+TRACE::2023-12-28.15:52:40::SCWPlatform:: Platform Path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:52:40::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2023-12-28.15:52:40::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2023-12-28.15:52:40::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2023-12-28.15:52:40::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-28.15:52:40::SCWMssOS::Checking the sw design at  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-28.15:52:40::SCWMssOS::DEBUG:  swdes dump  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-12-28.15:52:40::SCWMssOS::Sw design exists and opened at  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-28.15:52:40::SCWReader::No isolation master present  
+TRACE::2023-12-28.15:52:40::SCWDomain::checking for install qemu data   : 
+TRACE::2023-12-28.15:52:40::SCWDomain:: Using the QEMU Data from install at  : D:/Xilinx/Vitis/2023.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2023-12-28.15:52:40::SCWDomain:: Using the QEMU args  from install at  : D:/Xilinx/Vitis/2023.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2023-12-28.15:52:40::SCWPlatform::Trying to open the hw design at C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:52:40::SCWPlatform::DSA given C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:52:40::SCWPlatform::DSA absoulate path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:52:40::SCWPlatform::DSA directory C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw
+TRACE::2023-12-28.15:52:40::SCWPlatform:: Platform Path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:52:40::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2023-12-28.15:52:40::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2023-12-28.15:52:40::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2023-12-28.15:52:40::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-28.15:52:40::SCWPlatform::Trying to open the hw design at C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:52:40::SCWPlatform::DSA given C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:52:40::SCWPlatform::DSA absoulate path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:52:40::SCWPlatform::DSA directory C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw
+TRACE::2023-12-28.15:52:40::SCWPlatform:: Platform Path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:52:40::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2023-12-28.15:52:40::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2023-12-28.15:52:40::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2023-12-28.15:52:40::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-28.15:52:40::SCWPlatform::Trying to open the hw design at C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:52:40::SCWPlatform::DSA given C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:52:40::SCWPlatform::DSA absoulate path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:52:40::SCWPlatform::DSA directory C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw
+TRACE::2023-12-28.15:52:40::SCWPlatform:: Platform Path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:52:40::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2023-12-28.15:52:40::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2023-12-28.15:52:40::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2023-12-28.15:52:40::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-28.15:52:40::SCWMssOS::Checking the sw design at  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-28.15:52:40::SCWMssOS::DEBUG:  swdes dump  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-12-28.15:52:40::SCWMssOS::No sw design opened at  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-28.15:52:40::SCWMssOS::mss exists loading the mss file  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-28.15:52:40::SCWMssOS::Opened the sw design from mss  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-28.15:52:40::SCWMssOS::Adding the swdes entry C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2023-12-28.15:52:40::SCWMssOS::updating the scw layer about changes
+TRACE::2023-12-28.15:52:40::SCWMssOS::Opened the sw design.  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-28.15:52:40::SCWMssOS::Saving the mss changes C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-28.15:52:40::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-12-28.15:52:40::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-12-28.15:52:40::SCWMssOS::Commit changes completed.
+TRACE::2023-12-28.15:52:40::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2023-12-28.15:52:40::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2023-12-28.15:52:40::SCWPlatform::Trying to open the hw design at C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:52:40::SCWPlatform::DSA given C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:52:40::SCWPlatform::DSA absoulate path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:52:40::SCWPlatform::DSA directory C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw
+TRACE::2023-12-28.15:52:41::SCWPlatform:: Platform Path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:52:41::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2023-12-28.15:52:41::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2023-12-28.15:52:41::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2023-12-28.15:52:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-28.15:52:41::SCWMssOS::Checking the sw design at  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-28.15:52:41::SCWMssOS::DEBUG:  swdes dump  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-12-28.15:52:41::SCWMssOS::Sw design exists and opened at  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-28.15:52:41::SCWReader::No isolation master present  
+LOG::2023-12-28.15:52:41::SCWPlatform::Started generating the artifacts platform axi_gpio_led_platform
+TRACE::2023-12-28.15:52:41::SCWPlatform::Sanity checking of platform is completed
+LOG::2023-12-28.15:52:41::SCWPlatform::Started generating the artifacts for system configuration axi_gpio_led_platform
+LOG::2023-12-28.15:52:41::SCWSystem::Checking the domain zynq_fsbl
+LOG::2023-12-28.15:52:41::SCWSystem::Doing application build for :  zynq_fsbl
+TRACE::2023-12-28.15:52:41::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2023-12-28.15:52:41::SCWDomain::Skipping the build for domain :  zynq_fsbl
+LOG::2023-12-28.15:52:41::SCWSystem::Checking the domain standalone_domain
+LOG::2023-12-28.15:52:41::SCWSystem::Not a boot domain 
+LOG::2023-12-28.15:52:41::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2023-12-28.15:52:41::SCWDomain::Generating domain artifcats
+TRACE::2023-12-28.15:52:41::SCWMssOS::Generating standalone artifcats
+TRACE::2023-12-28.15:52:41::SCWMssOS::Copying the qemu file from  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/resources/axi_gpio_led_platform/standalone_domain/qemu_args.txt To C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/export/axi_gpio_led_platform/sw/axi_gpio_led_platform/qemu/
+TRACE::2023-12-28.15:52:41::SCWMssOS::Copying the qemu file from  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/resources/axi_gpio_led_platform/standalone_domain/qemu_args.txt To C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/export/axi_gpio_led_platform/sw/axi_gpio_led_platform/standalone_domain/qemu/
+TRACE::2023-12-28.15:52:41::SCWMssOS:: Copying the user libraries. 
+TRACE::2023-12-28.15:52:41::SCWPlatform::Trying to open the hw design at C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:52:41::SCWPlatform::DSA given C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:52:41::SCWPlatform::DSA absoulate path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:52:41::SCWPlatform::DSA directory C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw
+TRACE::2023-12-28.15:52:41::SCWPlatform:: Platform Path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:52:41::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2023-12-28.15:52:41::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2023-12-28.15:52:41::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2023-12-28.15:52:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-28.15:52:41::SCWMssOS::Checking the sw design at  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-28.15:52:41::SCWMssOS::DEBUG:  swdes dump  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-12-28.15:52:41::SCWMssOS::Sw design exists and opened at  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-28.15:52:41::SCWMssOS::Completed writing the mss file at C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/ps7_cortexa9_0/standalone_domain/bsp
+TRACE::2023-12-28.15:52:41::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-28.15:52:41::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2023-12-28.15:52:41::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2023-12-28.15:52:41::SCWDomain::Building the domain :  standalone_domain
+TRACE::2023-12-28.15:52:41::SCWMssOS::doing bsp build ... 
+TRACE::2023-12-28.15:52:41::SCWMssOS::System Command Ran  C: & cd  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/ps7_cortexa9_0/standalone_domain/bsp & make 
+TRACE::2023-12-28.15:52:41::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2023-12-28.15:52:41::SCWMssOS::'Finished building libraries sequentially.'
+
+TRACE::2023-12-28.15:52:41::SCWMssOS::make -j 14 --no-print-directory par_libs
+
+TRACE::2023-12-28.15:52:41::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src"
+
+TRACE::2023-12-28.15:52:41::SCWMssOS::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none
+TRACE::2023-12-28.15:52:41::SCWMssOS::-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=h
+TRACE::2023-12-28.15:52:41::SCWMssOS::ard -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-12-28.15:52:41::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_11/src"
+
+TRACE::2023-12-28.15:52:41::SCWMssOS::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_11/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-e
+TRACE::2023-12-28.15:52:41::SCWMssOS::abi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=har
+TRACE::2023-12-28.15:52:41::SCWMssOS::d -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-12-28.15:52:41::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_2/src"
+
+TRACE::2023-12-28.15:52:41::SCWMssOS::make -C ps7_cortexa9_0/libsrc/ddrps_v1_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2023-12-28.15:52:41::SCWMssOS::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2023-12-28.15:52:41::SCWMssOS::rtfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-12-28.15:52:41::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_7/src"
+
+TRACE::2023-12-28.15:52:41::SCWMssOS::make -C ps7_cortexa9_0/libsrc/devcfg_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2023-12-28.15:52:41::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2023-12-28.15:52:41::SCWMssOS::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-12-28.15:52:41::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_8/src"
+
+TRACE::2023-12-28.15:52:41::SCWMssOS::make -C ps7_cortexa9_0/libsrc/dmaps_v2_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2023-12-28.15:52:41::SCWMssOS::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2023-12-28.15:52:41::SCWMssOS::rtfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-12-28.15:52:41::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_18/src"
+
+TRACE::2023-12-28.15:52:41::SCWMssOS::make -C ps7_cortexa9_0/libsrc/emacps_v3_18/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2023-12-28.15:52:41::SCWMssOS::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2023-12-28.15:52:41::SCWMssOS::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-12-28.15:52:41::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_11/src"
+
+TRACE::2023-12-28.15:52:41::SCWMssOS::make -C ps7_cortexa9_0/libsrc/gpiops_v3_11/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2023-12-28.15:52:41::SCWMssOS::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2023-12-28.15:52:41::SCWMssOS::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-12-28.15:52:41::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_10/src"
+
+TRACE::2023-12-28.15:52:41::SCWMssOS::make -C ps7_cortexa9_0/libsrc/qspips_v3_10/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2023-12-28.15:52:41::SCWMssOS::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2023-12-28.15:52:41::SCWMssOS::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-12-28.15:52:41::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/scugic_v5_1/src"
+
+TRACE::2023-12-28.15:52:41::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scugic_v5_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2023-12-28.15:52:41::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2023-12-28.15:52:41::SCWMssOS::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-12-28.15:52:41::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_4/src"
+
+TRACE::2023-12-28.15:52:41::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scutimer_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2023-12-28.15:52:41::SCWMssOS::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2023-12-28.15:52:41::SCWMssOS::startfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-12-28.15:52:41::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_4/src"
+
+TRACE::2023-12-28.15:52:41::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2023-12-28.15:52:41::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2023-12-28.15:52:41::SCWMssOS::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-12-28.15:52:41::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/sdps_v4_1/src"
+
+TRACE::2023-12-28.15:52:41::SCWMssOS::make -C ps7_cortexa9_0/libsrc/sdps_v4_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+TRACE::2023-12-28.15:52:41::SCWMssOS::ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
+TRACE::2023-12-28.15:52:41::SCWMssOS::tfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-12-28.15:52:41::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/standalone_v8_1/src"
+
+TRACE::2023-12-28.15:52:41::SCWMssOS::make -C ps7_cortexa9_0/libsrc/standalone_v8_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2023-12-28.15:52:41::SCWMssOS::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2023-12-28.15:52:41::SCWMssOS::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-12-28.15:52:41::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_12/src"
+
+TRACE::2023-12-28.15:52:41::SCWMssOS::make -C ps7_cortexa9_0/libsrc/uartps_v3_12/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2023-12-28.15:52:41::SCWMssOS::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2023-12-28.15:52:41::SCWMssOS::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-12-28.15:52:41::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_7/src"
+
+TRACE::2023-12-28.15:52:41::SCWMssOS::make -C ps7_cortexa9_0/libsrc/usbps_v2_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2023-12-28.15:52:41::SCWMssOS::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2023-12-28.15:52:41::SCWMssOS::rtfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-12-28.15:52:41::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_6/src"
+
+TRACE::2023-12-28.15:52:41::SCWMssOS::make -C ps7_cortexa9_0/libsrc/xadcps_v2_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2023-12-28.15:52:41::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2023-12-28.15:52:41::SCWMssOS::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-12-28.15:52:41::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src"
+
+TRACE::2023-12-28.15:52:41::SCWMssOS::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-ea
+TRACE::2023-12-28.15:52:41::SCWMssOS::bi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard
+TRACE::2023-12-28.15:52:41::SCWMssOS:: -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-12-28.15:52:41::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_11/src"
+
+TRACE::2023-12-28.15:52:41::SCWMssOS::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_11/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2023-12-28.15:52:41::SCWMssOS::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2023-12-28.15:52:41::SCWMssOS::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-12-28.15:52:41::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_2/src"
+
+TRACE::2023-12-28.15:52:41::SCWMssOS::make -C ps7_cortexa9_0/libsrc/ddrps_v1_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+TRACE::2023-12-28.15:52:41::SCWMssOS::CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+TRACE::2023-12-28.15:52:41::SCWMssOS::iles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-12-28.15:52:41::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_7/src"
+
+TRACE::2023-12-28.15:52:41::SCWMssOS::make -C ps7_cortexa9_0/libsrc/devcfg_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2023-12-28.15:52:41::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2023-12-28.15:52:41::SCWMssOS::files -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-12-28.15:52:41::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_8/src"
+
+TRACE::2023-12-28.15:52:41::SCWMssOS::make -C ps7_cortexa9_0/libsrc/dmaps_v2_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+TRACE::2023-12-28.15:52:41::SCWMssOS::CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+TRACE::2023-12-28.15:52:41::SCWMssOS::iles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-12-28.15:52:41::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_18/src"
+
+TRACE::2023-12-28.15:52:41::SCWMssOS::make -C ps7_cortexa9_0/libsrc/emacps_v3_18/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+TRACE::2023-12-28.15:52:41::SCWMssOS::ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
+TRACE::2023-12-28.15:52:41::SCWMssOS::tfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-12-28.15:52:41::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_11/src"
+
+TRACE::2023-12-28.15:52:41::SCWMssOS::make -C ps7_cortexa9_0/libsrc/gpiops_v3_11/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+TRACE::2023-12-28.15:52:41::SCWMssOS::ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
+TRACE::2023-12-28.15:52:41::SCWMssOS::tfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-12-28.15:52:41::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_10/src"
+
+TRACE::2023-12-28.15:52:42::SCWMssOS::make -C ps7_cortexa9_0/libsrc/qspips_v3_10/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+TRACE::2023-12-28.15:52:42::SCWMssOS::ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
+TRACE::2023-12-28.15:52:42::SCWMssOS::tfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-12-28.15:52:42::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v5_1/src"
+
+TRACE::2023-12-28.15:52:42::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scugic_v5_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2023-12-28.15:52:42::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2023-12-28.15:52:42::SCWMssOS::files -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-12-28.15:52:42::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_4/src"
+
+TRACE::2023-12-28.15:52:42::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scutimer_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2023-12-28.15:52:42::SCWMssOS::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2023-12-28.15:52:42::SCWMssOS::rtfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-12-28.15:52:42::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_4/src"
+
+TRACE::2023-12-28.15:52:42::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2023-12-28.15:52:42::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2023-12-28.15:52:42::SCWMssOS::files -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-12-28.15:52:42::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v4_1/src"
+
+TRACE::2023-12-28.15:52:42::SCWMssOS::make -C ps7_cortexa9_0/libsrc/sdps_v4_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "ARC
+TRACE::2023-12-28.15:52:42::SCWMssOS::HIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfi
+TRACE::2023-12-28.15:52:42::SCWMssOS::les -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-12-28.15:52:42::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v8_1/src"
+
+TRACE::2023-12-28.15:52:42::SCWMssOS::make -C ps7_cortexa9_0/libsrc/standalone_v8_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2023-12-28.15:52:42::SCWMssOS::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2023-12-28.15:52:42::SCWMssOS::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-12-28.15:52:42::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_12/src"
+
+TRACE::2023-12-28.15:52:42::SCWMssOS::make -C ps7_cortexa9_0/libsrc/uartps_v3_12/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+TRACE::2023-12-28.15:52:42::SCWMssOS::ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
+TRACE::2023-12-28.15:52:42::SCWMssOS::tfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-12-28.15:52:42::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_7/src"
+
+TRACE::2023-12-28.15:52:43::SCWMssOS::make -C ps7_cortexa9_0/libsrc/usbps_v2_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+TRACE::2023-12-28.15:52:43::SCWMssOS::CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+TRACE::2023-12-28.15:52:43::SCWMssOS::iles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-12-28.15:52:43::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_6/src"
+
+TRACE::2023-12-28.15:52:43::SCWMssOS::make -C ps7_cortexa9_0/libsrc/xadcps_v2_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2023-12-28.15:52:43::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2023-12-28.15:52:43::SCWMssOS::files -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-12-28.15:52:44::SCWMssOS::'Finished building libraries parallelly.'
+
+TRACE::2023-12-28.15:52:44::SCWMssOS::make --no-print-directory archive
+
+TRACE::2023-12-28.15:52:44::SCWMssOS::arm-none-eabi-ar -r  ps7_cortexa9_0/lib/libxil.a ps7_cortexa9_0/lib/_exit.o ps7_cortexa9_0/lib/_open.o ps7_cortexa9_0/lib/_sbrk
+TRACE::2023-12-28.15:52:44::SCWMssOS::.o ps7_cortexa9_0/lib/abort.o ps7_cortexa9_0/lib/asm_vectors.o ps7_cortexa9_0/lib/boot.o ps7_cortexa9_0/lib/close.o ps7_cortexa
+TRACE::2023-12-28.15:52:44::SCWMssOS::9_0/lib/cpputest_time.o ps7_cortexa9_0/lib/cpu_init.o ps7_cortexa9_0/lib/errno.o ps7_cortexa9_0/lib/fcntl.o ps7_cortexa9_0/lib/
+TRACE::2023-12-28.15:52:44::SCWMssOS::fstat.o ps7_cortexa9_0/lib/getentropy.o ps7_cortexa9_0/lib/getpid.o ps7_cortexa9_0/lib/inbyte.o ps7_cortexa9_0/lib/isatty.o ps7
+TRACE::2023-12-28.15:52:44::SCWMssOS::_cortexa9_0/lib/kill.o ps7_cortexa9_0/lib/lseek.o ps7_cortexa9_0/lib/open.o ps7_cortexa9_0/lib/outbyte.o ps7_cortexa9_0/lib/pri
+TRACE::2023-12-28.15:52:44::SCWMssOS::nt.o ps7_cortexa9_0/lib/putnum.o ps7_cortexa9_0/lib/read.o ps7_cortexa9_0/lib/sbrk.o ps7_cortexa9_0/lib/sleep.o ps7_cortexa9_0/
+TRACE::2023-12-28.15:52:44::SCWMssOS::lib/time.o ps7_cortexa9_0/lib/translation_table.o ps7_cortexa9_0/lib/unlink.o ps7_cortexa9_0/lib/usleep.o ps7_cortexa9_0/lib/ve
+TRACE::2023-12-28.15:52:44::SCWMssOS::ctors.o ps7_cortexa9_0/lib/write.o ps7_cortexa9_0/lib/xadcps.o ps7_cortexa9_0/lib/xadcps_g.o ps7_cortexa9_0/lib/xadcps_intr.o p
+TRACE::2023-12-28.15:52:44::SCWMssOS::s7_cortexa9_0/lib/xadcps_selftest.o ps7_cortexa9_0/lib/xadcps_sinit.o ps7_cortexa9_0/lib/xcoresightpsdcc.o ps7_cortexa9_0/lib/x
+TRACE::2023-12-28.15:52:44::SCWMssOS::devcfg.o ps7_cortexa9_0/lib/xdevcfg_g.o ps7_cortexa9_0/lib/xdevcfg_hw.o ps7_cortexa9_0/lib/xdevcfg_intr.o ps7_cortexa9_0/lib/xd
+TRACE::2023-12-28.15:52:44::SCWMssOS::evcfg_selftest.o ps7_cortexa9_0/lib/xdevcfg_sinit.o ps7_cortexa9_0/lib/xdmaps.o ps7_cortexa9_0/lib/xdmaps_g.o ps7_cortexa9_0/li
+TRACE::2023-12-28.15:52:44::SCWMssOS::b/xdmaps_hw.o ps7_cortexa9_0/lib/xdmaps_selftest.o ps7_cortexa9_0/lib/xdmaps_sinit.o ps7_cortexa9_0/lib/xemacps.o ps7_cortexa9_
+TRACE::2023-12-28.15:52:44::SCWMssOS::0/lib/xemacps_bdring.o ps7_cortexa9_0/lib/xemacps_control.o ps7_cortexa9_0/lib/xemacps_g.o ps7_cortexa9_0/lib/xemacps_hw.o ps7_
+TRACE::2023-12-28.15:52:44::SCWMssOS::cortexa9_0/lib/xemacps_intr.o ps7_cortexa9_0/lib/xemacps_sinit.o ps7_cortexa9_0/lib/xgpio.o ps7_cortexa9_0/lib/xgpio_extra.o ps
+TRACE::2023-12-28.15:52:44::SCWMssOS::7_cortexa9_0/lib/xgpio_g.o ps7_cortexa9_0/lib/xgpio_intr.o ps7_cortexa9_0/lib/xgpio_selftest.o ps7_cortexa9_0/lib/xgpio_sinit.o
+TRACE::2023-12-28.15:52:44::SCWMssOS:: ps7_cortexa9_0/lib/xgpiops.o ps7_cortexa9_0/lib/xgpiops_g.o ps7_cortexa9_0/lib/xgpiops_hw.o ps7_cortexa9_0/lib/xgpiops_intr.o 
+TRACE::2023-12-28.15:52:44::SCWMssOS::ps7_cortexa9_0/lib/xgpiops_selftest.o ps7_cortexa9_0/lib/xgpiops_sinit.o ps7_cortexa9_0/lib/xil-crt0.o ps7_cortexa9_0/lib/xil_a
+TRACE::2023-12-28.15:52:44::SCWMssOS::ssert.o ps7_cortexa9_0/lib/xil_cache.o ps7_cortexa9_0/lib/xil_clocking.o ps7_cortexa9_0/lib/xil_exception.o ps7_cortexa9_0/lib/
+TRACE::2023-12-28.15:52:44::SCWMssOS::xil_mem.o ps7_cortexa9_0/lib/xil_misc_psreset_api.o ps7_cortexa9_0/lib/xil_mmu.o ps7_cortexa9_0/lib/xil_printf.o ps7_cortexa9_0
+TRACE::2023-12-28.15:52:44::SCWMssOS::/lib/xil_sleepcommon.o ps7_cortexa9_0/lib/xil_sleeptimer.o ps7_cortexa9_0/lib/xil_spinlock.o ps7_cortexa9_0/lib/xil_testcache.o
+TRACE::2023-12-28.15:52:44::SCWMssOS:: ps7_cortexa9_0/lib/xil_testio.o ps7_cortexa9_0/lib/xil_testmem.o ps7_cortexa9_0/lib/xil_util.o ps7_cortexa9_0/lib/xinterrupt_w
+TRACE::2023-12-28.15:52:44::SCWMssOS::rap.o ps7_cortexa9_0/lib/xl2cc_counter.o ps7_cortexa9_0/lib/xplatform_info.o ps7_cortexa9_0/lib/xpm_counter.o ps7_cortexa9_0/li
+TRACE::2023-12-28.15:52:44::SCWMssOS::b/xqspips.o ps7_cortexa9_0/lib/xqspips_g.o ps7_cortexa9_0/lib/xqspips_hw.o ps7_cortexa9_0/lib/xqspips_options.o ps7_cortexa9_0/
+TRACE::2023-12-28.15:52:44::SCWMssOS::lib/xqspips_selftest.o ps7_cortexa9_0/lib/xqspips_sinit.o ps7_cortexa9_0/lib/xscugic.o ps7_cortexa9_0/lib/xscugic_g.o ps7_corte
+TRACE::2023-12-28.15:52:44::SCWMssOS::xa9_0/lib/xscugic_hw.o ps7_cortexa9_0/lib/xscugic_intr.o ps7_cortexa9_0/lib/xscugic_selftest.o ps7_cortexa9_0/lib/xscugic_sinit
+TRACE::2023-12-28.15:52:44::SCWMssOS::.o ps7_cortexa9_0/lib/xscutimer.o ps7_cortexa9_0/lib/xscutimer_g.o ps7_cortexa9_0/lib/xscutimer_selftest.o ps7_cortexa9_0/lib/x
+TRACE::2023-12-28.15:52:44::SCWMssOS::scutimer_sinit.o ps7_cortexa9_0/lib/xscuwdt.o ps7_cortexa9_0/lib/xscuwdt_g.o ps7_cortexa9_0/lib/xscuwdt_selftest.o ps7_cortexa9
+TRACE::2023-12-28.15:52:44::SCWMssOS::_0/lib/xscuwdt_sinit.o ps7_cortexa9_0/lib/xsdps.o ps7_cortexa9_0/lib/xsdps_card.o ps7_cortexa9_0/lib/xsdps_g.o ps7_cortexa9_0/l
+TRACE::2023-12-28.15:52:44::SCWMssOS::ib/xsdps_host.o ps7_cortexa9_0/lib/xsdps_options.o ps7_cortexa9_0/lib/xsdps_sinit.o ps7_cortexa9_0/lib/xtime_l.o ps7_cortexa9_0
+TRACE::2023-12-28.15:52:44::SCWMssOS::/lib/xuartps.o ps7_cortexa9_0/lib/xuartps_g.o ps7_cortexa9_0/lib/xuartps_hw.o ps7_cortexa9_0/lib/xuartps_intr.o ps7_cortexa9_0/
+TRACE::2023-12-28.15:52:44::SCWMssOS::lib/xuartps_options.o ps7_cortexa9_0/lib/xuartps_selftest.o ps7_cortexa9_0/lib/xuartps_sinit.o ps7_cortexa9_0/lib/xusbps.o ps7_
+TRACE::2023-12-28.15:52:44::SCWMssOS::cortexa9_0/lib/xusbps_endpoint.o ps7_cortexa9_0/lib/xusbps_g.o ps7_cortexa9_0/lib/xusbps_hw.o ps7_cortexa9_0/lib/xusbps_intr.o 
+TRACE::2023-12-28.15:52:44::SCWMssOS::ps7_cortexa9_0/lib/xusbps_sinit.o
+
+TRACE::2023-12-28.15:52:44::SCWMssOS::'Finished building libraries'
+
+TRACE::2023-12-28.15:52:44::SCWMssOS::Copying to export directory.
+TRACE::2023-12-28.15:52:45::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2023-12-28.15:52:45::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2023-12-28.15:52:45::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2023-12-28.15:52:45::SCWSystem::Completed Processing the sysconfig axi_gpio_led_platform
+LOG::2023-12-28.15:52:45::SCWPlatform::Completed generating the artifacts for system configuration axi_gpio_led_platform
+TRACE::2023-12-28.15:52:45::SCWPlatform::Started preparing the platform 
+TRACE::2023-12-28.15:52:45::SCWSystem::Writing the bif file for system config axi_gpio_led_platform
+TRACE::2023-12-28.15:52:45::SCWSystem::dir created 
+TRACE::2023-12-28.15:52:45::SCWSystem::Writing the bif 
+TRACE::2023-12-28.15:52:45::SCWPlatform::Started writing the spfm file 
+TRACE::2023-12-28.15:52:45::SCWPlatform::Started writing the xpfm file 
+TRACE::2023-12-28.15:52:45::SCWPlatform::Completed generating the platform
+TRACE::2023-12-28.15:52:45::SCWMssOS::Saving the mss changes C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-28.15:52:45::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-12-28.15:52:45::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-12-28.15:52:45::SCWMssOS::Commit changes completed.
+TRACE::2023-12-28.15:52:45::SCWMssOS::Saving the mss changes C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-28.15:52:45::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-12-28.15:52:45::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-12-28.15:52:45::SCWMssOS::Commit changes completed.
+TRACE::2023-12-28.15:52:45::SCWPlatform::Trying to open the hw design at C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:52:45::SCWPlatform::DSA given C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:52:45::SCWPlatform::DSA absoulate path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:52:45::SCWPlatform::DSA directory C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw
+TRACE::2023-12-28.15:52:45::SCWPlatform:: Platform Path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:52:45::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2023-12-28.15:52:45::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2023-12-28.15:52:45::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2023-12-28.15:52:45::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-28.15:52:45::SCWMssOS::Checking the sw design at  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-28.15:52:45::SCWMssOS::DEBUG:  swdes dump  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-12-28.15:52:45::SCWMssOS::Sw design exists and opened at  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-28.15:52:45::SCWPlatform::Trying to open the hw design at C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:52:45::SCWPlatform::DSA given C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:52:45::SCWPlatform::DSA absoulate path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:52:45::SCWPlatform::DSA directory C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw
+TRACE::2023-12-28.15:52:45::SCWPlatform:: Platform Path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:52:45::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2023-12-28.15:52:45::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2023-12-28.15:52:45::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2023-12-28.15:52:45::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-28.15:52:45::SCWMssOS::Checking the sw design at  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-28.15:52:45::SCWMssOS::DEBUG:  swdes dump  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-12-28.15:52:45::SCWMssOS::Sw design exists and opened at  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-28.15:52:45::SCWWriter::formatted JSON is {
+	"platformName":	"axi_gpio_led_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"axi_gpio_led_platform",
+	"platHandOff":	"C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_vivado/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"axi_gpio_led_platform",
+	"systems":	[{
+			"systemName":	"axi_gpio_led_platform",
+			"systemDesc":	"axi_gpio_led_platform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"axi_gpio_led_platform",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.1",
+					"mssFile":	"",
+					"md5Digest":	"fd35cdb91a84baa05ba5310401b49ddd1",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:5.0", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on ps7_cortexa9_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"<platformDir>/resources/axi_gpio_led_platform/standalone_domain/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/axi_gpio_led_platform/standalone_domain/qemu",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.1",
+					"mssFile":	"",
+					"md5Digest":	"e60826ba3b5c5dfa7f56684addaac942",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2023-12-28.15:52:45::SCWPlatform::updated the xpfm file.
+TRACE::2023-12-28.15:52:46::SCWPlatform::Trying to open the hw design at C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:52:46::SCWPlatform::DSA given C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:52:46::SCWPlatform::DSA absoulate path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:52:46::SCWPlatform::DSA directory C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw
+TRACE::2023-12-28.15:52:46::SCWPlatform:: Platform Path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:52:46::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2023-12-28.15:52:46::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper
+TRACE::2023-12-28.15:52:46::SCWPlatform::Opened existing hwdb design_1_wrapper
+TRACE::2023-12-28.15:52:46::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-28.15:52:46::SCWMssOS::Checking the sw design at  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-28.15:52:46::SCWMssOS::DEBUG:  swdes dump  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-12-28.15:52:46::SCWMssOS::Sw design exists and opened at  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-28.15:53:01::SCWPlatform::Clearing the existing platform
+TRACE::2023-12-28.15:53:01::SCWSystem::Clearing the existing sysconfig
+TRACE::2023-12-28.15:53:01::SCWBDomain::clearing the fsbl build
+TRACE::2023-12-28.15:53:01::SCWMssOS::Removing the swdes entry for  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-28.15:53:01::SCWMssOS::Removing the swdes entry for  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-28.15:53:01::SCWSystem::Clearing the domains completed.
+TRACE::2023-12-28.15:53:01::SCWPlatform::Clearing the opened hw db.
+TRACE::2023-12-28.15:53:01::SCWPlatform::DSA given C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:01::SCWPlatform::DSA absoulate path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:01::SCWPlatform:: Platform location is C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw
+TRACE::2023-12-28.15:53:01::SCWPlatform:: Platform Path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:01::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2023-12-28.15:53:01::SCWPlatform::Removing the HwDB with name C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:01::SCWPlatform::Trying to open the hw design at C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:01::SCWPlatform::DSA given C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:01::SCWPlatform::DSA absoulate path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:01::SCWPlatform::DSA directory C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw
+TRACE::2023-12-28.15:53:01::SCWPlatform:: Platform Path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:01::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2023-12-28.15:53:01::SCWPlatform::Do not have an existing db opened. 
+TRACE::2023-12-28.15:53:08::SCWPlatform::Opened new HwDB with name design_1_wrapper_1
+TRACE::2023-12-28.15:53:08::SCWReader::Active system found as  axi_gpio_led_platform
+TRACE::2023-12-28.15:53:08::SCWReader::Handling sysconfig axi_gpio_led_platform
+TRACE::2023-12-28.15:53:08::SCWDomain::checking for install qemu data   : 
+TRACE::2023-12-28.15:53:08::SCWDomain:: Using the QEMU Data from install at  : D:/Xilinx/Vitis/2023.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2023-12-28.15:53:08::SCWDomain:: Using the QEMU args  from install at  : D:/Xilinx/Vitis/2023.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2023-12-28.15:53:08::SCWPlatform::Trying to open the hw design at C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:08::SCWPlatform::DSA given C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:08::SCWPlatform::DSA absoulate path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:08::SCWPlatform::DSA directory C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw
+TRACE::2023-12-28.15:53:08::SCWPlatform:: Platform Path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:08::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2023-12-28.15:53:08::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2023-12-28.15:53:08::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2023-12-28.15:53:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-28.15:53:08::SCWPlatform::Trying to open the hw design at C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:08::SCWPlatform::DSA given C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:08::SCWPlatform::DSA absoulate path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:08::SCWPlatform::DSA directory C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw
+TRACE::2023-12-28.15:53:08::SCWPlatform:: Platform Path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:08::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2023-12-28.15:53:08::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2023-12-28.15:53:08::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2023-12-28.15:53:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-28.15:53:08::SCWPlatform::Trying to open the hw design at C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:08::SCWPlatform::DSA given C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:08::SCWPlatform::DSA absoulate path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:08::SCWPlatform::DSA directory C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw
+TRACE::2023-12-28.15:53:08::SCWPlatform:: Platform Path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:08::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2023-12-28.15:53:08::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2023-12-28.15:53:08::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2023-12-28.15:53:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-28.15:53:08::SCWReader::Boot application domain added for zynq_fsbl
+TRACE::2023-12-28.15:53:08::SCWPlatform::Trying to open the hw design at C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:08::SCWPlatform::DSA given C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:08::SCWPlatform::DSA absoulate path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:08::SCWPlatform::DSA directory C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw
+TRACE::2023-12-28.15:53:08::SCWPlatform:: Platform Path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:08::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2023-12-28.15:53:08::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2023-12-28.15:53:08::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2023-12-28.15:53:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-28.15:53:08::SCWMssOS::Checking the sw design at  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-28.15:53:08::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2023-12-28.15:53:08::SCWMssOS::No sw design opened at  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-28.15:53:08::SCWMssOS::mss exists loading the mss file  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-28.15:53:08::SCWMssOS::Opened the sw design from mss  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-28.15:53:08::SCWMssOS::Adding the swdes entry C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2023-12-28.15:53:08::SCWMssOS::updating the scw layer about changes
+TRACE::2023-12-28.15:53:08::SCWMssOS::Opened the sw design.  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-28.15:53:08::SCWPlatform::Trying to open the hw design at C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:08::SCWPlatform::DSA given C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:08::SCWPlatform::DSA absoulate path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:08::SCWPlatform::DSA directory C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw
+TRACE::2023-12-28.15:53:08::SCWPlatform:: Platform Path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:08::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2023-12-28.15:53:08::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2023-12-28.15:53:08::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2023-12-28.15:53:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-28.15:53:08::SCWMssOS::Checking the sw design at  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-28.15:53:08::SCWMssOS::DEBUG:  swdes dump  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-12-28.15:53:08::SCWMssOS::Sw design exists and opened at  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-28.15:53:08::SCWMssOS:: library already available in sw design:  xilffs:5.0
+TRACE::2023-12-28.15:53:08::SCWPlatform::Trying to open the hw design at C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:08::SCWPlatform::DSA given C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:08::SCWPlatform::DSA absoulate path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:08::SCWPlatform::DSA directory C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw
+TRACE::2023-12-28.15:53:08::SCWPlatform:: Platform Path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:08::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2023-12-28.15:53:08::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2023-12-28.15:53:08::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2023-12-28.15:53:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-28.15:53:08::SCWMssOS::Checking the sw design at  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-28.15:53:08::SCWMssOS::DEBUG:  swdes dump  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-12-28.15:53:08::SCWMssOS::Sw design exists and opened at  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-28.15:53:08::SCWMssOS:: library already available in sw design:  xilrsa:1.6
+TRACE::2023-12-28.15:53:08::SCWMssOS::Saving the mss changes C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-28.15:53:08::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-12-28.15:53:08::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-12-28.15:53:08::SCWMssOS::Commit changes completed.
+TRACE::2023-12-28.15:53:08::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2023-12-28.15:53:08::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2023-12-28.15:53:08::SCWPlatform::Trying to open the hw design at C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:08::SCWPlatform::DSA given C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:08::SCWPlatform::DSA absoulate path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:08::SCWPlatform::DSA directory C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw
+TRACE::2023-12-28.15:53:08::SCWPlatform:: Platform Path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:08::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2023-12-28.15:53:08::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2023-12-28.15:53:08::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2023-12-28.15:53:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-28.15:53:08::SCWMssOS::Checking the sw design at  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-28.15:53:08::SCWMssOS::DEBUG:  swdes dump  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-12-28.15:53:08::SCWMssOS::Sw design exists and opened at  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-28.15:53:08::SCWReader::No isolation master present  
+TRACE::2023-12-28.15:53:08::SCWDomain::checking for install qemu data   : 
+TRACE::2023-12-28.15:53:08::SCWDomain:: Using the QEMU Data from install at  : D:/Xilinx/Vitis/2023.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2023-12-28.15:53:08::SCWDomain:: Using the QEMU args  from install at  : D:/Xilinx/Vitis/2023.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2023-12-28.15:53:08::SCWPlatform::Trying to open the hw design at C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:08::SCWPlatform::DSA given C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:08::SCWPlatform::DSA absoulate path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:08::SCWPlatform::DSA directory C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw
+TRACE::2023-12-28.15:53:08::SCWPlatform:: Platform Path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:08::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2023-12-28.15:53:08::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2023-12-28.15:53:08::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2023-12-28.15:53:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-28.15:53:08::SCWPlatform::Trying to open the hw design at C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:08::SCWPlatform::DSA given C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:08::SCWPlatform::DSA absoulate path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:08::SCWPlatform::DSA directory C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw
+TRACE::2023-12-28.15:53:08::SCWPlatform:: Platform Path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:08::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2023-12-28.15:53:08::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2023-12-28.15:53:08::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2023-12-28.15:53:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-28.15:53:08::SCWPlatform::Trying to open the hw design at C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:08::SCWPlatform::DSA given C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:08::SCWPlatform::DSA absoulate path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:08::SCWPlatform::DSA directory C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw
+TRACE::2023-12-28.15:53:08::SCWPlatform:: Platform Path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:08::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2023-12-28.15:53:08::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2023-12-28.15:53:08::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2023-12-28.15:53:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-28.15:53:08::SCWMssOS::Checking the sw design at  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-28.15:53:08::SCWMssOS::DEBUG:  swdes dump  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-12-28.15:53:08::SCWMssOS::No sw design opened at  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-28.15:53:08::SCWMssOS::mss exists loading the mss file  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-28.15:53:08::SCWMssOS::Opened the sw design from mss  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-28.15:53:08::SCWMssOS::Adding the swdes entry C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2023-12-28.15:53:08::SCWMssOS::updating the scw layer about changes
+TRACE::2023-12-28.15:53:08::SCWMssOS::Opened the sw design.  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-28.15:53:08::SCWMssOS::Saving the mss changes C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-28.15:53:08::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-12-28.15:53:08::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-12-28.15:53:08::SCWMssOS::Commit changes completed.
+TRACE::2023-12-28.15:53:08::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2023-12-28.15:53:08::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2023-12-28.15:53:08::SCWPlatform::Trying to open the hw design at C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:08::SCWPlatform::DSA given C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:08::SCWPlatform::DSA absoulate path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:08::SCWPlatform::DSA directory C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw
+TRACE::2023-12-28.15:53:08::SCWPlatform:: Platform Path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:08::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2023-12-28.15:53:08::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2023-12-28.15:53:08::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2023-12-28.15:53:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-28.15:53:08::SCWMssOS::Checking the sw design at  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-28.15:53:08::SCWMssOS::DEBUG:  swdes dump  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-12-28.15:53:08::SCWMssOS::Sw design exists and opened at  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-28.15:53:08::SCWReader::No isolation master present  
+TRACE::2023-12-28.15:53:08::SCWPlatform::Trying to open the hw design at C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:08::SCWPlatform::DSA given C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:08::SCWPlatform::DSA absoulate path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:08::SCWPlatform::DSA directory C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw
+TRACE::2023-12-28.15:53:08::SCWPlatform:: Platform Path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:08::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2023-12-28.15:53:08::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2023-12-28.15:53:08::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2023-12-28.15:53:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-28.15:53:08::SCWMssOS::Checking the sw design at  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-28.15:53:08::SCWMssOS::DEBUG:  swdes dump  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-12-28.15:53:08::SCWMssOS::Sw design exists and opened at  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-28.15:53:08::SCWMssOS::In reload Mss file.
+TRACE::2023-12-28.15:53:08::SCWPlatform::Trying to open the hw design at C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:08::SCWPlatform::DSA given C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:08::SCWPlatform::DSA absoulate path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:08::SCWPlatform::DSA directory C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw
+TRACE::2023-12-28.15:53:08::SCWPlatform:: Platform Path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:08::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2023-12-28.15:53:08::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2023-12-28.15:53:08::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2023-12-28.15:53:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-28.15:53:08::SCWMssOS::Checking the sw design at  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-28.15:53:08::SCWMssOS::DEBUG:  swdes dump  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+
+TRACE::2023-12-28.15:53:08::SCWMssOS::No sw design opened at  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-28.15:53:08::SCWMssOS::mss exists loading the mss file  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-28.15:53:08::SCWMssOS::Opened the sw design from mss  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-28.15:53:08::SCWMssOS::Adding the swdes entry C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2023-12-28.15:53:08::SCWMssOS::updating the scw layer about changes
+TRACE::2023-12-28.15:53:08::SCWMssOS::Opened the sw design.  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-28.15:53:08::SCWPlatform::Trying to open the hw design at C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:08::SCWPlatform::DSA given C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:08::SCWPlatform::DSA absoulate path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:08::SCWPlatform::DSA directory C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw
+TRACE::2023-12-28.15:53:08::SCWPlatform:: Platform Path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:08::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2023-12-28.15:53:08::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2023-12-28.15:53:08::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2023-12-28.15:53:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-28.15:53:08::SCWMssOS::Checking the sw design at  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-28.15:53:08::SCWMssOS::DEBUG:  swdes dump  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-12-28.15:53:08::SCWMssOS::Sw design exists and opened at  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-28.15:53:08::SCWMssOS:: library already available in sw design:  xilffs:5.0
+TRACE::2023-12-28.15:53:08::SCWPlatform::Trying to open the hw design at C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:08::SCWPlatform::DSA given C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:08::SCWPlatform::DSA absoulate path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:08::SCWPlatform::DSA directory C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw
+TRACE::2023-12-28.15:53:08::SCWPlatform:: Platform Path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:08::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2023-12-28.15:53:08::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2023-12-28.15:53:08::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2023-12-28.15:53:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-28.15:53:08::SCWMssOS::Checking the sw design at  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-28.15:53:08::SCWMssOS::DEBUG:  swdes dump  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-12-28.15:53:08::SCWMssOS::Sw design exists and opened at  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-28.15:53:08::SCWMssOS:: library already available in sw design:  xilrsa:1.6
+TRACE::2023-12-28.15:53:08::SCWMssOS::Saving the mss changes C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-28.15:53:08::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-12-28.15:53:08::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-12-28.15:53:08::SCWMssOS::Commit changes completed.
+TRACE::2023-12-28.15:53:08::SCWPlatform::Trying to open the hw design at C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:08::SCWPlatform::DSA given C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:08::SCWPlatform::DSA absoulate path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:08::SCWPlatform::DSA directory C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw
+TRACE::2023-12-28.15:53:08::SCWPlatform:: Platform Path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:08::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2023-12-28.15:53:08::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2023-12-28.15:53:08::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2023-12-28.15:53:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-28.15:53:08::SCWMssOS::Checking the sw design at  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-28.15:53:08::SCWMssOS::DEBUG:  swdes dump  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2023-12-28.15:53:08::SCWMssOS::Sw design exists and opened at  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-28.15:53:08::SCWMssOS::Removing the swdes entry for  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-28.15:53:12::SCWPlatform::Trying to open the hw design at C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:12::SCWPlatform::DSA given C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:12::SCWPlatform::DSA absoulate path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:12::SCWPlatform::DSA directory C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw
+TRACE::2023-12-28.15:53:12::SCWPlatform:: Platform Path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:12::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2023-12-28.15:53:12::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2023-12-28.15:53:12::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2023-12-28.15:53:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-28.15:53:12::SCWMssOS::Checking the sw design at  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-28.15:53:12::SCWMssOS::DEBUG:  swdes dump  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+
+TRACE::2023-12-28.15:53:12::SCWMssOS::Sw design exists and opened at  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-28.15:53:12::SCWMssOS::In reload Mss file.
+TRACE::2023-12-28.15:53:12::SCWPlatform::Trying to open the hw design at C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:12::SCWPlatform::DSA given C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:12::SCWPlatform::DSA absoulate path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:12::SCWPlatform::DSA directory C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw
+TRACE::2023-12-28.15:53:12::SCWPlatform:: Platform Path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:12::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2023-12-28.15:53:12::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2023-12-28.15:53:12::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2023-12-28.15:53:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-28.15:53:12::SCWMssOS::Checking the sw design at  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-28.15:53:12::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2023-12-28.15:53:12::SCWMssOS::No sw design opened at  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-28.15:53:12::SCWMssOS::mss exists loading the mss file  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-28.15:53:12::SCWMssOS::Opened the sw design from mss  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-28.15:53:12::SCWMssOS::Adding the swdes entry C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2023-12-28.15:53:12::SCWMssOS::updating the scw layer about changes
+TRACE::2023-12-28.15:53:12::SCWMssOS::Opened the sw design.  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-28.15:53:12::SCWMssOS::Saving the mss changes C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-28.15:53:12::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-12-28.15:53:12::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-12-28.15:53:12::SCWMssOS::Commit changes completed.
+TRACE::2023-12-28.15:53:12::SCWPlatform::Trying to open the hw design at C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:12::SCWPlatform::DSA given C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:12::SCWPlatform::DSA absoulate path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:12::SCWPlatform::DSA directory C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw
+TRACE::2023-12-28.15:53:12::SCWPlatform:: Platform Path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.15:53:12::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2023-12-28.15:53:12::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2023-12-28.15:53:12::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2023-12-28.15:53:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-28.15:53:12::SCWMssOS::Checking the sw design at  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-28.15:53:12::SCWMssOS::DEBUG:  swdes dump  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-12-28.15:53:12::SCWMssOS::Sw design exists and opened at  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-28.15:53:12::SCWMssOS::Removing the swdes entry for  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+LOG::2023-12-28.16:04:51::SCWPlatform::Started generating the artifacts platform axi_gpio_led_platform
+TRACE::2023-12-28.16:04:51::SCWPlatform::Sanity checking of platform is completed
+LOG::2023-12-28.16:04:51::SCWPlatform::Started generating the artifacts for system configuration axi_gpio_led_platform
+LOG::2023-12-28.16:04:51::SCWSystem::Checking the domain zynq_fsbl
+LOG::2023-12-28.16:04:51::SCWSystem::Doing application build for :  zynq_fsbl
+TRACE::2023-12-28.16:04:51::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2023-12-28.16:04:51::SCWDomain::Skipping the build for domain :  zynq_fsbl
+LOG::2023-12-28.16:04:51::SCWSystem::Checking the domain standalone_domain
+LOG::2023-12-28.16:04:51::SCWSystem::Not a boot domain 
+LOG::2023-12-28.16:04:51::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2023-12-28.16:04:51::SCWDomain::Generating domain artifcats
+TRACE::2023-12-28.16:04:51::SCWMssOS::Generating standalone artifcats
+TRACE::2023-12-28.16:04:51::SCWMssOS::Copying the qemu file from  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/resources/axi_gpio_led_platform/standalone_domain/qemu_args.txt To C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/export/axi_gpio_led_platform/sw/axi_gpio_led_platform/qemu/
+TRACE::2023-12-28.16:04:51::SCWMssOS::Copying the qemu file from  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/resources/axi_gpio_led_platform/standalone_domain/qemu_args.txt To C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/export/axi_gpio_led_platform/sw/axi_gpio_led_platform/standalone_domain/qemu/
+TRACE::2023-12-28.16:04:51::SCWMssOS:: Copying the user libraries. 
+TRACE::2023-12-28.16:04:51::SCWPlatform::Trying to open the hw design at C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.16:04:51::SCWPlatform::DSA given C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.16:04:51::SCWPlatform::DSA absoulate path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.16:04:51::SCWPlatform::DSA directory C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw
+TRACE::2023-12-28.16:04:51::SCWPlatform:: Platform Path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.16:04:51::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2023-12-28.16:04:51::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2023-12-28.16:04:51::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2023-12-28.16:04:51::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-28.16:04:51::SCWMssOS::Checking the sw design at  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-28.16:04:51::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2023-12-28.16:04:51::SCWMssOS::No sw design opened at  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-28.16:04:51::SCWMssOS::mss exists loading the mss file  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-28.16:04:51::SCWMssOS::Opened the sw design from mss  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-28.16:04:51::SCWMssOS::Adding the swdes entry C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2023-12-28.16:04:51::SCWMssOS::updating the scw layer about changes
+TRACE::2023-12-28.16:04:51::SCWMssOS::Opened the sw design.  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-28.16:04:51::SCWMssOS::Completed writing the mss file at C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/ps7_cortexa9_0/standalone_domain/bsp
+TRACE::2023-12-28.16:04:51::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-28.16:04:51::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2023-12-28.16:04:51::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2023-12-28.16:04:51::SCWDomain::Skipping the build for domain :  standalone_domain
+TRACE::2023-12-28.16:04:51::SCWMssOS::skipping the bsp build ... 
+TRACE::2023-12-28.16:04:51::SCWMssOS::Copying to export directory.
+TRACE::2023-12-28.16:04:52::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2023-12-28.16:04:52::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2023-12-28.16:04:52::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2023-12-28.16:04:52::SCWSystem::Completed Processing the sysconfig axi_gpio_led_platform
+LOG::2023-12-28.16:04:52::SCWPlatform::Completed generating the artifacts for system configuration axi_gpio_led_platform
+TRACE::2023-12-28.16:04:52::SCWPlatform::Started preparing the platform 
+TRACE::2023-12-28.16:04:52::SCWSystem::Writing the bif file for system config axi_gpio_led_platform
+TRACE::2023-12-28.16:04:52::SCWSystem::dir created 
+TRACE::2023-12-28.16:04:52::SCWSystem::Writing the bif 
+TRACE::2023-12-28.16:04:52::SCWPlatform::Started writing the spfm file 
+TRACE::2023-12-28.16:04:52::SCWPlatform::Started writing the xpfm file 
+TRACE::2023-12-28.16:04:52::SCWPlatform::Completed generating the platform
+TRACE::2023-12-28.16:04:52::SCWMssOS::Saving the mss changes C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-28.16:04:52::SCWMssOS::Adding the swdes entry, mss present, able to open swdb C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system_0
+TRACE::2023-12-28.16:04:52::SCWMssOS::Writing the mss file completed C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-28.16:04:52::SCWMssOS::Commit changes completed.
+TRACE::2023-12-28.16:04:52::SCWMssOS::Saving the mss changes C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-28.16:04:52::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-12-28.16:04:52::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-12-28.16:04:52::SCWMssOS::Commit changes completed.
+TRACE::2023-12-28.16:04:52::SCWPlatform::Trying to open the hw design at C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.16:04:52::SCWPlatform::DSA given C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.16:04:52::SCWPlatform::DSA absoulate path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.16:04:52::SCWPlatform::DSA directory C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw
+TRACE::2023-12-28.16:04:52::SCWPlatform:: Platform Path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.16:04:52::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2023-12-28.16:04:52::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2023-12-28.16:04:52::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2023-12-28.16:04:52::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-28.16:04:52::SCWMssOS::Checking the sw design at  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-28.16:04:52::SCWMssOS::DEBUG:  swdes dump  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system||
+C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_0||
+
+TRACE::2023-12-28.16:04:52::SCWMssOS::Sw design exists and opened at  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2023-12-28.16:04:52::SCWPlatform::Trying to open the hw design at C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.16:04:52::SCWPlatform::DSA given C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.16:04:52::SCWPlatform::DSA absoulate path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.16:04:52::SCWPlatform::DSA directory C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw
+TRACE::2023-12-28.16:04:52::SCWPlatform:: Platform Path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.16:04:52::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2023-12-28.16:04:52::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2023-12-28.16:04:52::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2023-12-28.16:04:52::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-28.16:04:52::SCWMssOS::Checking the sw design at  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-28.16:04:52::SCWMssOS::DEBUG:  swdes dump  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system||
+C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_0||
+
+TRACE::2023-12-28.16:04:52::SCWMssOS::Sw design exists and opened at  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-28.16:04:52::SCWWriter::formatted JSON is {
+	"platformName":	"axi_gpio_led_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"axi_gpio_led_platform",
+	"platHandOff":	"C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_vivado/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"axi_gpio_led_platform",
+	"systems":	[{
+			"systemName":	"axi_gpio_led_platform",
+			"systemDesc":	"axi_gpio_led_platform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"axi_gpio_led_platform",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.1",
+					"mssFile":	"",
+					"md5Digest":	"fd35cdb91a84baa05ba5310401b49ddd1",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:5.0", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on ps7_cortexa9_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"<platformDir>/resources/axi_gpio_led_platform/standalone_domain/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/axi_gpio_led_platform/standalone_domain/qemu",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.1",
+					"mssFile":	"",
+					"md5Digest":	"e60826ba3b5c5dfa7f56684addaac942",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2023-12-28.16:04:52::SCWPlatform::updated the xpfm file.
+TRACE::2023-12-28.16:04:53::SCWPlatform::Trying to open the hw design at C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.16:04:53::SCWPlatform::DSA given C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.16:04:53::SCWPlatform::DSA absoulate path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.16:04:53::SCWPlatform::DSA directory C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw
+TRACE::2023-12-28.16:04:53::SCWPlatform:: Platform Path C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/hw/design_1_wrapper.xsa
+TRACE::2023-12-28.16:04:53::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2023-12-28.16:04:53::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_1
+TRACE::2023-12-28.16:04:53::SCWPlatform::Opened existing hwdb design_1_wrapper_1
+TRACE::2023-12-28.16:04:53::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-12-28.16:04:53::SCWMssOS::Checking the sw design at  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2023-12-28.16:04:53::SCWMssOS::DEBUG:  swdes dump  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system||
+C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system_0||
+
+TRACE::2023-12-28.16:04:53::SCWMssOS::Sw design exists and opened at  C:/Users/david/fpga/axi_gpio_led/axi_gpio_led_platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
